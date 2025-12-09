@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: rgb(54, 11, 36);
+}
+
+.container{
+    margin: auto;
+    margin-top: 50px;
+    border: 1px solid;
+    width: 500px;
+    padding: 100px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    background-color: rgb(39, 28, 49);
+    border: none;
+    border-radius: 20px;
+    color: white;
+
+    box-shadow: 0 0 20px rgb(126, 126, 210);
+}
+
+.head1{
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.head2{
+    font-size: 35px;
+    font-weight: 600;
+    color: rgb(141, 171, 112);
+    margin-bottom: 10px;
+}
+
+.sub-head{
+    color: rgb(223, 233, 230);
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+#pass-btn{
+    width: 40%;
+    border: none;
+    font-size: 15px;
+    padding: 10px 15px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    background-color: rgb(141, 171, 112);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#pass-btn:hover{
+    background-color: rgb(128, 156, 102);
+    transition-duration: 0.3s;
+}
+
+.pass{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#hr{
+    border-bottom: 1px solid rgb(88, 47, 85);
+}
+
+.ps{
+    /* border: 1px solid; */
+    width: 48%;
+    text-align: center;
+    padding: 8px;
+    color: rgb(224, 186, 140);
+    background-color: rgb(64, 33, 66);
+    border-radius: 4px;
+    
+}
